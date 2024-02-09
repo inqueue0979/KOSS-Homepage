@@ -40,7 +40,7 @@ function Navbar()
               <a className="" href="/">운영진</a>
           </li>
           <li className="nav-item">
-              <button className='px-4 py-2 font-bold text-sm bg-teal-600 text-white rounded-md shadow-sm'>지원하기</button>
+              <a className='px-4 py-2 font-bold text-sm bg-teal-600 text-white rounded-md shadow-sm' href="/">지원하기</a>
           </li>
         </ul>
       </div>
