@@ -38,7 +38,7 @@ function Navbar()
               <Link to={"/"} className="">이벤트</Link>
           </li>
           <li className="hidden md:flex">
-              <Link to={"/"} className="">운영진</Link>
+              <Link to={"/executive"} className="">운영진</Link>
           </li>
           <li className="nav-item">
               <Link to={"/recruit"} className='px-4 py-2 font-bold text-sm bg-teal-600 text-white rounded-md shadow-sm'>지원하기</Link>

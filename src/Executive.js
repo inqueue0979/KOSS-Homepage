@@ -1,7 +1,7 @@
 import './App.css';
 import './output.css'
 
-function Management()
+function Executive()
 {
     return (
         <div className="App-header items-center">
@@ -9,11 +9,11 @@ function Management()
               <img className='w-full' alt='brick' src='img/rulernBrush.png'></img>
           </div>
           <div className='font-black text-2xl text-center tracking-tight md:text-4xl'>
-            <h1>Keep On Studying for Society,</h1>
-            <h1>소프트웨어융합대학 학술동아리 KOSS</h1>
+            <h1>KOSS와 동행하는 가장 좋은 방법,</h1>
+            <h1>KOSS EXECUTIVE</h1>
           </div>
         </div>
       )
 }
 
-export default Management;
+export default Executive;
