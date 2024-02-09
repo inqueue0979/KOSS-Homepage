@@ -1,6 +1,7 @@
 import './App.css';
 import './output.css'
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar()
 {
@@ -28,19 +29,19 @@ function Navbar()
       <div className='flex items-center justify-self-endfont-regular text-white min-w-24'>
         <ul className='flex justify-center items-center list-none gap-6'>
           <li className="hidden lg:flex">
-              <a className="w-10" href="/">소개</a>
+              <Link to={"/"} className="">소개</Link>
           </li>
           <li className="hidden lg:flex">
-              <a className="" href="/">활동</a>
+              <Link to={"/"} className="">활동</Link>
           </li>
           <li className="hidden lg:flex">
-              <a className="" href="/">이벤트</a>
+              <Link to={"/"} className="">이벤트</Link>
           </li>
           <li className="hidden md:flex">
-              <a className="" href="/">운영진</a>
+              <Link to={"/"} className="">운영진</Link>
           </li>
           <li className="nav-item">
-              <a className='px-4 py-2 font-bold text-sm bg-teal-600 text-white rounded-md shadow-sm' href="/">지원하기</a>
+              <Link to={"/recruit"} className='px-4 py-2 font-bold text-sm bg-teal-600 text-white rounded-md shadow-sm'>지원하기</Link>
           </li>
         </ul>
       </div>
