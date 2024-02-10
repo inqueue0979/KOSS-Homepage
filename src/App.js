@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
-      <div style={{backgroundColor:'#121212'}}>
+      <div className="bg-stone-950 text-white">
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
