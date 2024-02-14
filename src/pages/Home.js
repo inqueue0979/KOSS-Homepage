@@ -91,7 +91,7 @@ function Home() {
             <img className='w-full drop-shadow-2xl' alt='brick' src='img/koss_text.png'></img>
         </div>
       </div>
-      <div className='text-center mt-72'>
+      <div className='text-center mt-40'>
         <div className='mt-16 text-center inline-grid w-2/3 gap-8 grid-cols-2 xl:grid-cols-3'>
           {lis}
         </div>
@@ -110,6 +110,9 @@ function Home() {
             }}
           />
         </div>
+      </div>
+      <div>
+        
       </div>
     </div>
   );

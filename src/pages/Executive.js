@@ -69,7 +69,7 @@ const promotion_dept_members = [
     title: "김선우",
     content: "홍보부원",
     major: "소프트웨어학부",
-    grade: "23학번",
+    grade: "20학번",
     image:"profile/profile-default.png",
   }
 ]
