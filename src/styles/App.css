@@ -37,3 +37,41 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+.executive_i {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  color: #058587;
+}
+
+.executive_ii {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 10px;
+  line-height: 10%;
+  color: #ebeaec;
+}
+
+.executive_i1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 3;
+}
+
+.business_card_elements{
+  display:flex;
+  flex-direction:column; 
+  justify-content:space-between;
+  gap:6px;
+  border:1px solid #ebeaec;
+  border-radius:10px;
+  padding:20px;
+  height: 400px;
+  width: 250px;
+  background-color: #ebeaec;
+}

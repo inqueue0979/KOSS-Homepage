@@ -1,7 +1,7 @@
-import './App.css';
-import './output.css';
+import '../styles/App.css';
+import '../styles/output.css';
 import Home from './Home.js';
-import Navbar from './Navbar.js';
+import Navbar from '../components/Navbar.js';
 import Executive from './Executive.js';
 import Recruit from './Recruit.js';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';

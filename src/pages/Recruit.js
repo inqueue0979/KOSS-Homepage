@@ -1,5 +1,5 @@
-import './App.css';
-import './output.css';
+import '../styles/App.css';
+import '../styles/output.css';
 
 
 function Recruit()

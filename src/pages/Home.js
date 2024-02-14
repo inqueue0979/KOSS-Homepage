@@ -1,5 +1,5 @@
-import './App.css';
-import './output.css';
+import '../styles/App.css';
+import '../styles/output.css';
 import React, { useEffect, useRef } from 'react';
 import TypeWriter from 'typewriter-effect';
 
@@ -90,6 +90,11 @@ function Home() {
             <img className='w-full drop-shadow-2xl' alt='brick' src='img/koss_text.png'></img>
         </div>
       </div>
+      <div className='text-center mt-72'>
+        <div className='mt-16 text-center inline-grid w-2/3 gap-8 grid-cols-2 xl:grid-cols-3'>
+          {lis}
+        </div>
+      </div>
       <div className='App-header font-black text-2xl md:text-3xl xl:text-5xl' id='introduce'>
         <div className='text-left' ref={typeWriterElementRef}>
           <TypeWriter
@@ -103,11 +108,6 @@ function Home() {
               deleteSpeed: 30
             }}
           />
-        </div>
-      </div>
-      <div className='text-center mt-80'>
-        <div className=' mt-16 text-center inline-grid w-2/3 gap-8 grid-cols-2 xl:grid-cols-3'>
-          {lis}
         </div>
       </div>
     </div>
