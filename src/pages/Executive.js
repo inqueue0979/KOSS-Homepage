@@ -168,13 +168,21 @@ function Executive()
 
     return (
         <div className="items-center bg-stone-950">
+          <div className="container">
           <div className='App-header'>
-            <div className='text-center w-1/2 md:w-1/5'>
-                <img className='w-full' alt='brick' src='img/koss_text.png'></img>
-            </div>
-            <div className='font-black text-2xl text-center tracking-tight md:text-4xl'>
-              <h1>KOSS와 동행하는 가장 좋은 방법,</h1>
-              <h1>2024 KOSS 운영진</h1>
+            {/* <div className='text-center w-1/2 md:w-1/5'> */}
+                <img className='w-full' alt='brick' src='img/koss_text.png' style={{height: 350, width: 350}}></img>
+            {/* </div> */}
+            
+              <div className='font-black text-2xl text-center tracking-tight md:text-4xl'>
+                <h1>KOSS와 동행하는 가장 좋은 방법,</h1>
+                <h1>2024 KOSS 운영진</h1>
+              </div>
+                <svg className="pulse" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                  <circle id="Oval" cx="512" cy="512" r="512"></circle>
+                  <circle id="Oval" cx="512" cy="512" r="512"></circle>
+		              <circle id="Oval" cx="512" cy="512" r="512"></circle>
+                </svg>
             </div>
           </div>
           
