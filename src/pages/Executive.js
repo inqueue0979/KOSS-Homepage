@@ -97,18 +97,23 @@ function OpeningCard(props) {
 
   return (
     <div className="business_card_elements justify-center">
-        <img src={props.faces} alt="person" className='w-full rounded-lg' style={{height: 'auto', alignSelf: 'flex-start' }} />
-      <div className="top" style={{ textAlign: 'right', color: 'black' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <img src={props.faces} alt="person" className='w-1/2 rounded-lg' style={{ height: 'auto' }} />
+        <img src="/img/koss_logo.png" alt="KOSS" className='rounded-lg' style={{ height: '30px' }} />
+      </div>
+      <div className="top" style={{ textAlign: 'right', color: 'black', marginTop: 15 }}>
         <h1 className="text-xl font-bold"> {props.title}</h1>
       </div>
       <div className="bottom"style={{ textAlign: 'right',color: 'black', fontSize:15  }}>
-        <p className="font-semibold">
+        <p className="font-semibold"style={{marginBottom: 5}}>
           {props.content}</p>
-        <p className="font-light">
+          <img src="/img/Rectangle9.png" alt=' ' className='rounded-lg' style={{ width: '100px', float: 'right'}} />
+        <p className="font-light" style={{marginTop: 10}}>
         {props.grade}</p>
         <p className="font-light">
         {props.major}</p>
       </div>
+      <img src= "/img/KOSS_text_green.png" alt="KOSS" className= 'w-1/4 rounded-lg'  style={{height: 'auto', alignSelf: 'flex-start', marginTop: 60 }} />
     </div>
   );
 }
@@ -190,11 +195,11 @@ function Executive()
               </div>
             </div>
             <br></br>
-            <div className='mt-16 text-center inline-grid gap-8 grid-cols-2 xl:grid-cols-2'>
+            <div className='mt-13 text-center inline-grid gap-8 grid-cols-2 xl:grid-cols-2'>
               {lis3}
             </div>
             <br></br>
-            <div className='mt-16 text-center inline-grid gap-8 grid-cols-2 xl:grid-cols-2'>
+            <div className='mt-13 text-center inline-grid gap-8 grid-cols-2 xl:grid-cols-2'>
               {lis4}
             </div>
           </div>
