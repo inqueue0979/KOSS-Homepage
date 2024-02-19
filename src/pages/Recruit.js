@@ -6,8 +6,8 @@ function Recruit()
 {
   
   return (
-      
-    <div className="square" style={{alignContent:'center'}}>
+    <div className="back" style={{backgroundColor:'black', height: 850}}>
+    <div className="square">
       <span></span>
       <span></span>
       <span></span>
@@ -16,6 +16,7 @@ function Recruit()
         <button className="a" style={{marginTop: 20, padding:20, fontWeight:700}}>2024-1 KOSS 지원하기</button>
       </div>
     </div>
+  </div>
   );
 }
 
